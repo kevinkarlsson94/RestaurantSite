@@ -1,0 +1,299 @@
+/*
+    TEXT-COLORS: 
+    white: #fff;
+    yellow: #f0f71b
+
+    BACKGROUND-COLORS:
+    dark: #1C1C1C
+    light dark: #262626
+    
+*/
+
+html{
+    position:relative; 
+    min-height: 100%;
+}
+
+html,body{
+    margin: 0;
+    min-width: 700px;
+    background-color: #ecf0f1;
+}
+
+.ContentWrapper{
+  margin-bottom:100px;/* Height of footer*/
+        font-family: 'Josefin Sans', sans-serif;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:240px;
+    background:#1C1C1C;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+}
+
+header ul{
+    margin-top: -60px;
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+header ul li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 30px 10px;
+}
+
+header ul img{
+    width: 70px;
+    opacity: 0.7;
+    box-shadow: inset  0px 0px 10px #000;
+    padding: 10px;
+    margin-top: -7px;
+    
+}
+
+#menu1{
+    background-color: #8e44ad;
+
+}
+
+#menu2{
+    background-color: #40d47e;
+}
+
+
+#menu3{
+    background-color: #d35400;
+}
+
+
+#menu4{
+    background-color: #34495e;
+}
+
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: #f0f71b;
+    text-decoration: none;
+}
+
+.top-black-border{
+    height: 20px;
+    background-color: #000;
+}
+
+.top-black-border p{
+    margin: 0;
+    color: #fff;
+    float: right;
+    margin-top: 3px;
+    margin-right: 5px;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#cover{
+    background: url(../media//Izakaya.jpg);
+    height: 400px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+    border-bottom: 10px solid black;
+}
+
+#cover h1 {
+    margin-top: 240px;
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+#cover img{
+    margin-top: 120px;
+}
+
+#cover h1, #cover img{
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    color: #fff;
+}
+
+/*
+.google-maps {
+    position: relative;
+    padding-top: 30%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+*/
+.box{
+    margin-top: 70px;
+    height: 200px;
+    padding-top: -40px;
+    padding-bottom: -40px;
+    margin-bottom: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center; /* align vertical */
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #fff;
+}
+
+.circle-boxes img{
+    width: 290px;
+    height: 290px;
+    border-radius: 100%;
+    margin-top: 0px;
+    box-shadow: 0px 0px 6px #000;
+}
+
+.box p{
+    display: block;
+    margin-left: 3%;
+}
+
+.box h1, .box h2, .box h3{
+    font-size: 32px;
+    margin-top: 70px;
+}
+
+.box h4{
+    margin-top: 40px;
+    font-size: 32px;
+}
+
+
+#first{
+    margin-top: 140px;
+    background-color: #e74c3c;
+}
+
+#second{
+    background-color: #3498db;
+}
+
+#third{
+    background-color: #34495e;
+}
+
+#history{
+    background-color: #f39c12;
+    height: auto;
+    padding-left: 0;
+    overflow: hidden;
+    padding-right: 0;
+    position: relative;
+    margin-bottom: 310px;
+}
+
+
+#history p{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+video{
+    height: 50%;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 100%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px #000;
+    z-index: 2;
+}
+
+#flowers{
+    height: 120px;
+    width: 101.4%;
+    position: absolute;
+    margin-top: 370px;
+    background-image: url(../media/flowers.png);
+    background-size: contain;
+    z-index: -1;
+}
+
+.footer-image{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-image img{
+    height: 70px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.footer-items{
+    margin-top: 30px;
+}
+
+.footer-items ul{
+    list-style: none;
+    list-style-type: none;
+}
+
+.footer-items ul li{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+}
+
+.tftext{
+    font-weight: bolder;
+}
+
+.tf{
+    margin-top: 10px;
+}
